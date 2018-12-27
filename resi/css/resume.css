@@ -108,6 +108,10 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    border-right-color: #824027;
+    border-right-width: 5px;
+    border-top-style: solid;    
+}
   }
   #sideNav .navbar-brand {
     display: -webkit-box;
@@ -189,4 +193,19 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+footer{
+  position: bottom;
+  padding-block-end: 15px;
+  padding-block-start: 15px;
+  background: #4f8fffb9;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  width: 100%; 
+  border-top: 20px;  
+  border-top-color: #29a3a3;
+  border-width: 5px;
+  border-top-style: solid;    
 }
